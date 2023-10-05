@@ -151,7 +151,7 @@
 
     // 変数宣言
     var active = false;
-    var stratTime = 0;
+    var startTime = 0;
     var period = 0;
 
 
@@ -182,7 +182,8 @@
     
     // ButtonAがクリックされた時の処理
     function btnAClick(e){
-        
+      active = true;
+      startTime = new Date(); 
         
     }
 
