@@ -1,4 +1,12 @@
 /**/
+    body {
+        background-color:aquamarine;
+    }
+
+    button {
+        color: blue;
+    }
+
     #minuteStr {
         color: #ff0000;
         font-size: 20px;
@@ -65,8 +73,6 @@
         position:absolute; top:450px; left:190px; width:80px; height:40px;   
     }
 
-    body {
-        background-color:aquamarine;
-    }
+    
     
     input[type=number] {text-align: right;}
