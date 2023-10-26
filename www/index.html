@@ -219,6 +219,16 @@
             active = false;
             alarm();
         }
+
+        if (rest <= 5){ 
+            $("#remain").css("font-family", "serif"); 
+            $("#remain").css("color", "blue");
+            $("body").css("background-color", "#00FF3B");
+        }
+
+        
+
+        
         
     } 
 
@@ -236,6 +246,6 @@
     <button id="btnB">Stop</button>  
     <button id="btnC">Set</button>  
     <input type="number" id="minute" value=0 >
-    <input type="number" id="second" value=15 >
+    <input type="number" id="second" value=6 >
 </body>
 </html>
